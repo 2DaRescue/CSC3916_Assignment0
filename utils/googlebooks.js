@@ -17,7 +17,6 @@ module.exports = async (phrase) => {
         statusText: response.statusText, 
         headers: response.headers,
         requestHeader: response.config.headers
-    
     }
 
     //TODO: return the formattedObject
